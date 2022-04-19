@@ -57,7 +57,8 @@ const Nav = () => {
         setlabelscroll('label-top');
       }
     }
-  })
+    return () => window.removeEventListener("scroll");
+  }, {once: false});
   return (
     <div>
       <div className={navscroll}>
