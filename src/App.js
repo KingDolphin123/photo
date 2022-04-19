@@ -3,6 +3,8 @@ import Nav from "./Components/Nav";
 import Home from "./Components/Home";
 import Homemobile from "./Components/Homemobile";
 import Navmobile from "./Components/Navmobile";
+import Footer from "./Components/Footer";
+
 
 import './App.css';
 
@@ -29,6 +31,7 @@ function App() {
         <button onClick = {setw}>setwid</button> */}
         {width ? <Navmobile />: <Nav />}
         {width ? <Homemobile /> : <Home />}
+        <Footer />
     </div>
   );
 }

@@ -51,7 +51,7 @@
 .labe-top{
     padding-right:5vw;
     font-family: 'Nanum Myeongjo', serif;
-    font-size: max(16px,3vw);
+    font-size: max(16px,2.5vw);
     transition: .5s;
 }
 .labe:hover{

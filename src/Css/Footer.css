@@ -1,0 +1,12 @@
+.picture{
+    height:4vh;
+    padding-right:1vw;
+    padding-top: .25vw;
+    padding-bottom:1vw;
+
+}
+.socials{
+    display:flex;
+    justify-content: flex-end;
+
+}
