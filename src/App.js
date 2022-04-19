@@ -5,8 +5,10 @@ import './App.css';
 
 
 function App() {
+  var width = window.innerWidth;
   return (
     <div>
+        <p>{width}</p>
         <Nav />
         <Home />
     </div>

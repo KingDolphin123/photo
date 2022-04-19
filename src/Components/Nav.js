@@ -43,14 +43,14 @@ const Nav = () => {
   
   
   window.addEventListener("scroll", function(){
-    if(this.window.scrollY>0){
+    if(this.window.scrollY>50){
       if(navscroll !== 'nav'){
         setnavscroll('nav');
         setlogoscroll('logo');
         setlabelscroll('label');
       }
     }
-    else if(this.window.scrollY===0){
+    else if(this.window.scrollY<50){
       if(navscroll !== 'nav-top'){
         setnavscroll('nav-top');
         setlogoscroll('logo-top');

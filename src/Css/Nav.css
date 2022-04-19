@@ -15,7 +15,7 @@
     justify-content: flex-start;
     height:20vh;
     min-height: 50px;
-    background-color: white;
+    background-color:aliceblue;
     align-items: center;
     transition:.5s;
     width:100%;
@@ -45,13 +45,13 @@
     /* padding-top: 1vh; */
     padding-right: 6vw;
     font-family: 'Nanum Myeongjo', serif;
-    font-size: max(16px,2.5vh);
+    font-size: max(16px,2vh);
     transition: .5s;
 }
 .label-top{
     padding-right:5vw;
     font-family: 'Nanum Myeongjo', serif;
-    font-size: max(16px,3.5vh);
+    font-size: max(16px,3vh);
     transition: .5s;
 }
 .d{
@@ -60,7 +60,7 @@
 
 }
 .text{
-    font-size: 10vh;
+    font-size: 7vh;
     transition:1s;
 }
 .label:hover{
