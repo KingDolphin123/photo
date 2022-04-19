@@ -1,0 +1,44 @@
+.pic{
+    height:50vh;
+    width:auto;
+    padding:1vh;
+}
+.piout{
+    padding-top:20vh;
+    height:200vh;
+    width: 33%;
+    /* display:flex;
+    flex-wrap:wrap;
+    align-items: flex-start; */
+}
+.bigdiv{
+    padding-top:20vh;
+    display:flex;
+    flex-direction: row;
+}
+.col1{
+    width:32.1%;
+    padding: .5%;
+}
+.col1 img{
+    width:100%;
+    height:auto;
+}
+.col2{
+    width:32.1%;
+    padding: .5%;
+
+}
+.col2 img{
+    width:100%;
+    height:auto;
+}
+.col3{
+    width:32.1%;
+    padding: .5%;
+
+}
+.col3 img{
+    width:100%;
+    height:auto;
+}

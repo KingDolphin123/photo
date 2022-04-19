@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Montserrat&family=Nanum+Myeongjo:wght@700&family=Raleway:wght@100&family=Sacramento&family=Staatliches&family=Tangerine:wght@700&family=Unica+One&family=Zen+Kurenaido&display=swap');
+.nav{
+    display:flex;
+    justify-content: flex-start;
+    height: 10vh;
+    min-height: 50px;
+    background-color: white;
+    align-items: center;
+    transition:.5s;
+    width:100%;
+    position: fixed;
+}
+.nav-top{
+    display:flex;
+    justify-content: flex-start;
+    height:20vh;
+    min-height: 50px;
+    background-color: white;
+    align-items: center;
+    transition:.5s;
+    width:100%;
+    position: fixed;
+}
+.logo{
+    margin: max(5px,1vh);
+    height: max(32px,4vh);
+    width: auto;
+    margin-right: 28vw;
+    margin-left:1.5vw;
+    transition: .5s;
+}
+.logo-top{
+    margin: max(5px,1vh);
+    height: max(32px, 8vh);
+    width: auto;
+    margin-left:3vw;
+    margin-right:22vw;
+    transition: .5s;
+}
+.nav2{
+    display:flex;
+    justify-content: center;
+}
+.label{
+    /* padding-top: 1vh; */
+    padding-right: 6vw;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: max(16px,2.5vh);
+    transition: .5s;
+}
+.label-top{
+    padding-right:5vw;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: max(16px,3.5vh);
+    transition: .5s;
+}
+.d{
+    height: 200vh;
+    background-color: white;
+
+}
+.text{
+    font-size: 10vh;
+    transition:1s;
+}
+.label:hover{
+    transform: skewY(3deg) skewX(-2deg);
+    color: #85AFFF;
+}
+.label-top:hover{
+    transform: skewY(3deg) skewX(-2deg);
+    color: #85AFFF;
+}
