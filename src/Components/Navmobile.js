@@ -5,7 +5,7 @@ import logo from "../Css/drawiddng-4.png";
 const Navmobile = () => {
   const [navscroll, setnavscroll] = useState("nav-top");
   const [logoscroll, setlogoscroll] = useState("logf-top");
-  const [labelscroll, setlabelscroll] = useState("label-top");
+  const [labelscroll, setlabelscroll] = useState("labe-top");
 
   // useEffect(() => {
   //   window.onscroll = () => {
@@ -44,13 +44,13 @@ const Navmobile = () => {
         if (navscroll !== "nav") {
           setnavscroll("nav");
           setlogoscroll("logf");
-          setlabelscroll("label");
+          setlabelscroll("labe");
         }
       } else if (this.window.scrollY < 50) {
         if (navscroll !== "nav-top") {
           setnavscroll("nav-top");
           setlogoscroll("logf-top");
-          setlabelscroll("label-top");
+          setlabelscroll("labe-top");
         }
       }
       return () => window.removeEventListener("scroll");

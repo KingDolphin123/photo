@@ -35,30 +35,30 @@
 }
 .logf-top{
     margin: max(5px,1vh);
-    height: max(25px, 7vh);
+    height: max(20px, 7vw);
     width: auto;
     margin-left:3vw;
     margin-right:8vw;
     transition: .5s;
 }
-.label{
+.labe{
     /* padding-top: 1vh; */
     padding-right: 6vw;
     font-family: 'Nanum Myeongjo', serif;
-    font-size: max(16px,2vh);
+    font-size: max(16px,2vw);
     transition: .5s;
 }
-.label-top{
+.labe-top{
     padding-right:5vw;
     font-family: 'Nanum Myeongjo', serif;
-    font-size: max(16px,3vh);
+    font-size: max(16px,3vw);
     transition: .5s;
 }
-.label:hover{
+.labe:hover{
     transform: skewY(3deg) skewX(-2deg);
     color: #85AFFF;
 }
-.label-top:hover{
+.labe-top:hover{
     transform: skewY(3deg) skewX(-2deg);
     color: #85AFFF;
 }
