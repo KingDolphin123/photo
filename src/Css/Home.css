@@ -2,6 +2,7 @@
     height:50vh;
     width:auto;
     padding:1vh;
+    padding-bottom:0;
 }
 .bigdiv{
     width: 100%;
