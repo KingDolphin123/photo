@@ -5,7 +5,7 @@
 }
 .nav{
     display:flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     height: 10vh;
     min-height: 50px;
     background-color: white;
@@ -16,7 +16,7 @@
 }
 .nav-top{
     display:flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     height:20vh;
     min-height: 50px;
     background-color:white;
@@ -29,8 +29,8 @@
     margin: max(5px,1vh);
     height: max(32px,4vh);
     width: auto;
-    margin-right: 28vw;
-    margin-left:1.5vw;
+    /* margin-right: 28vw; */
+    margin-left:2vw;
     transition: .5s;
 }
 .logo-top{
@@ -38,20 +38,20 @@
     height: max(32px, 8vh);
     width: auto;
     margin-left:3vw;
-    margin-right:22vw;
+    /* margin-right:22vw; */
     transition: .5s;
 }
 .label{
     /* padding-top: 1vh; */
     padding-right: 6vw;
     font-family: 'Nanum Myeongjo', serif;
-    font-size: max(16px,2vh);
+    font-size: max(16px,(1vh+1vw));
     transition: .5s;
 }
 .label-top{
     padding-right:5vw;
     font-family: 'Nanum Myeongjo', serif;
-    font-size: max(16px,3vh);
+    font-size: max(16px,(1.5vw+1vh));
     transition: .5s;
 }
 .label:hover{
