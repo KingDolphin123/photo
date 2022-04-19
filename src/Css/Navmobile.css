@@ -25,20 +25,20 @@
     width:100%;
     position: fixed;
 }
-.logo{
+.logf{
     margin: max(5px,1vh);
-    height: max(32px,4vh);
+    height: max(20px,3vh);
     width: auto;
-    margin-right: 28vw;
+    margin-right: 12vw;
     margin-left:1.5vw;
     transition: .5s;
 }
-.logo-top{
+.logf-top{
     margin: max(5px,1vh);
-    height: max(32px, 8vh);
+    height: max(25px, 7vh);
     width: auto;
     margin-left:3vw;
-    margin-right:22vw;
+    margin-right:8vw;
     transition: .5s;
 }
 .label{
