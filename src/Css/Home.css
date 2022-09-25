@@ -1,8 +1,6 @@
 .pic{
     height:50vh;
     width:auto;
-    padding:1vh;
-    padding-bottom:0;
 }
 .bigdiv{
     width: 100%;
@@ -11,16 +9,14 @@
     flex-direction: row;
 }
 .col1{
-    width:32.1%;
-    padding: .5%;
+    width:33.333%;
 }
 .col1 img{
     width:100%;
     height:auto;
 }
 .col2{
-    width:32.1%;
-    padding: .5%;
+    width:33.333%;
 
 }
 .col2 img{
@@ -28,8 +24,7 @@
     height:auto;
 }
 .col3{
-    width:32.1%;
-    padding: .5%;
+    width:33.333%;
 
 }
 .col3 img{
